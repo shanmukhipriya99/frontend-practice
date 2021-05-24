@@ -1,0 +1,3 @@
+1. place external stylesheets before the internal styling.
+2. the code is read from top to bottom.
+3. 

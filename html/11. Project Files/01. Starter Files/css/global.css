@@ -14,8 +14,8 @@ header {
 }
 
 img#logo { 
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    /* margin-right: 100px; */
     position: absolute;
     top: 17px;
     left: 0;
@@ -32,7 +32,7 @@ a {
 	text-decoration: none;
 	font-weight: 2em;
 	font-family: 'roboto';
-	margin-right: 20px;
+	/* margin-right: 20px; */
     padding: 30px;
 }
 

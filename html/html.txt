@@ -1,3 +1,6 @@
 1. place external stylesheets before the internal styling.
 2. the code is read from top to bottom.
-3. 
+3. <nav> should usually be the first content inside <body>.
+4. directory list is not supported by html5.
+5. <map> defines a client-side image map.
+6. 

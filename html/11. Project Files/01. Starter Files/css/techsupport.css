@@ -7,37 +7,37 @@
 #computer {
     position: absolute;
     top: 250px;
-    left: 300px;
+    left: 20px;
 }
 
 .text {
     position: absolute;
     top: 200px;
-    left: 733px;
+    left: 450px;
 }
 
 #computer2 {
     position: absolute;
     top: 600px;
-    left: 300px;
+    left: 20px;
 }
 
 .text2 {
     position: absolute;
     top: 550px;
-    left: 733px;
+    left: 450px;
 }
 
 #computer3 {
     position: absolute;
     top: 950px;
-    left: 300px;
+    left: 20px;
 }
 
 .text3 {
     position: absolute;
     top: 900px;
-    left: 733px;
+    left: 450px;
 }
 
 footer#techsupport {

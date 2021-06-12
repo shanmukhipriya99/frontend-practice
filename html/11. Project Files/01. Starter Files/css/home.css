@@ -7,8 +7,8 @@
 section#content {
     color: white;
     position: absolute;
-    top: 400px;
-    left: 600px;
+    top: 300px;
+    left: 250px;
 
 }
 
@@ -36,8 +36,8 @@ div.course {
     background: white;
     border: 1px solid transparent;
     position: absolute;
-    top: 1244px;
-    left: 400px;
+    top: 900px;
+    left: 30px;
 }
 
 div.course2 {
@@ -46,8 +46,8 @@ div.course2 {
     background: white;
     border: 1px solid transparent;
     position: absolute;
-    top: 1244px;
-    left: 850px;
+    top: 900px;
+    left: 440px;
 }
 
 div.course3 {
@@ -56,8 +56,8 @@ div.course3 {
     background: white;
     border: 1px solid transparent;
     position: absolute;
-    top: 1244px;
-    left: 1300px;
+    top: 900px;
+    left: 850px;
 }
 
 h6 {
@@ -82,7 +82,7 @@ section#about {
     height: 509px;
     background: #252525;
     position: absolute;
-    top: 1800px;
+    top: 1500px;
     left: 0;
 }
 
@@ -99,7 +99,7 @@ div.students {
     color: white;
     position: absolute;
     top: 212px;
-    left: 250px;
+    left: 10px;
 }
 
 div.reviews {
@@ -110,7 +110,7 @@ div.reviews {
     color: white;
     position: absolute;
     top: 212px;
-    left: 600px;
+    left: 321px;
 } 
 
 div.courses {
@@ -121,7 +121,7 @@ div.courses {
     color: white;
     position: absolute;
     top: 212px;
-    left: 951px;
+    left: 636px;
 }
 
 div.content {
@@ -132,7 +132,7 @@ div.content {
     color: white;
     position: absolute;
     top: 212px;
-    left: 1301px;
+    left: 950px;
 }
 
 /*
@@ -153,8 +153,8 @@ div.learntechnow {
     background: white;
     border: 1px solid transparent;
     position: absolute;
-    top: 2500px;
-    left: 400px;
+    top: 2200px;
+    left: 20px;
 }
 
 div.learntechpodcast {
@@ -163,8 +163,8 @@ div.learntechpodcast {
     background: white;
     border: 1px solid transparent;
     position: absolute;
-    top: 2500px;
-    left: 850px;
+    top: 2200px;
+    left: 435px;
 }
 
 div.learntechblog {
@@ -173,15 +173,15 @@ div.learntechblog {
     background: white;
     border: 1px solid transparent;
     position: absolute;
-    top: 2500px;
-    left: 1300px;
+    top: 2200px;
+    left: 850px;
 }
 
 .h1lt {
 
     position: absolute;
-    top: 2320px;
-    left: 614px;
+    top: 2000px;
+    left: 450px;
 
 }
 
@@ -202,7 +202,7 @@ footer {
     height: 80px;
     background: #172035;
     position: absolute;
-    top: 3100px;
+    top: 2800px;
     left: 0;
 }
 

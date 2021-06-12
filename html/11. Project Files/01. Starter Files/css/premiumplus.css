@@ -11,7 +11,7 @@ div.monthly {
     border: 1px solid transparent;
     position: absolute;
     top: 300px;
-    left: 400px;
+    left: 180px;
 }
 
 div.annual {
@@ -21,7 +21,7 @@ div.annual {
     border: 1px solid transparent;
     position: absolute;
     top: 300px;
-    left: 850px;
+    left:500px;
 }
 
 div.lifetime {
@@ -31,7 +31,7 @@ div.lifetime {
     border: 1px solid transparent;
     position: absolute;
     top: 300px;
-    left: 1300px;
+    left: 800px;
 }
 
 h6 {
@@ -58,7 +58,7 @@ footer {
     height: 80px;
     background: #172035;
     position: absolute;
-    top: 900px!important;
+    top: 730px!important;
     left: 0;
 }
 

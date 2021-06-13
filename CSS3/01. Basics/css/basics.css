@@ -222,6 +222,12 @@ div.margin {
 /* padding-bottom */
 
 /* padding-left */
+div.padding {
+    padding: 20px 60px;
+    background: cadetblue;
+    width: 350px;
+    height: 80px;
+}
 
 /*===========================================================================================================================================*/
 

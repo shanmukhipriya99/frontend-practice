@@ -63,11 +63,18 @@ We can divide CSS selectors into five categories:
   4. Pseudo-elements selectors (select and style a part of an element)
   5. Attribute selectors (select elements based on an attribute or attribute value) */
 
+  /* p {
+      color: purple;
+  } */
 
+  /* p#paragraphid {
+      color: purple;
+  } */
 
-
-
-
+  /* p.classstyle, h1.classstyle {
+      color: red;
+      font-size: 2em;
+  } */
 
 /*===========================================================================================================================================*/
 

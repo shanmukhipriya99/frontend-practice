@@ -8,13 +8,11 @@ CSS Comments are not displayed in the browser, but can help document your source
 
 Comments are used to explain the code, and may help when you edit the source code at a later date. */
 
-  /* To Comment out your CSS use this syntax
+/* To Comment out your CSS use this syntax
 
           /* Comment out code here */
 
-
 /*===========================================================================================================================================*/
-
 
 /*   02. Where to Insert CSS
 -----------------------------
@@ -39,14 +37,12 @@ The declaration block contains one or more declarations separated by semicolons.
 Each declaration includes a CSS property name and a value, separated by a colon.
 Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.*/
 
-  /* h1 {
+/* h1 {
     color: blue;
     font-size: 12px;
   } */
 
 /*===========================================================================================================================================*/
-
-
 
 /* 04. Selectors
 --------------------
@@ -63,21 +59,20 @@ We can divide CSS selectors into five categories:
   4. Pseudo-elements selectors (select and style a part of an element)
   5. Attribute selectors (select elements based on an attribute or attribute value) */
 
-  /* p {
+/* p {
       color: purple;
   } */
 
-  /* p#paragraphid {
+/* p#paragraphid {
       color: purple;
   } */
 
-  /* p.classstyle, h1.classstyle {
+/* p.classstyle, h1.classstyle {
       color: red;
       font-size: 2em;
   } */
 
 /*===========================================================================================================================================*/
-
 
 /* 05. Colors
 --------------
@@ -86,58 +81,62 @@ We can divide CSS selectors into five categories:
 
 
 */
-
-
-
-
-
-
-
+/* h1#color1 {
+    color: tomato;
+}
+h1#color2 {
+    color: aqua;
+}
+h1#color3 {
+    color: rgb(155, 83, 32);
+}
+h1#color4 {
+    color: yellow;
+}
+h1#rgb {
+    color: rgb(255, 0, 0);
+}
+h1#hex {
+    color: #00ffff;
+}
+h1#hsl {
+    color: hsl(180, 50%, 50%);
+} */
 /*===========================================================================================================================================*/
-
 
 /* 06. Backgrounds
 -------------------
 
     CSS background properties are used to add background effects for elements. */
 
-
-
-
-
-
 /*===========================================================================================================================================*/
-
 
 /* 07. Borders
 -------------------
 
     The CSS border properties allow you to specify the style, width and color of an elements border. */
 
-    /* dotted - Defines a dotted border */
+/* dotted - Defines a dotted border */
 
-    /* dashed - Defines a dashed border */
+/* dashed - Defines a dashed border */
 
-    /* solid - Defines a solid border */
+/* solid - Defines a solid border */
 
-    /* double - Defines a double border */
+/* double - Defines a double border */
 
-    /* groove - Defines a 3D grooved border.  The effect depends on the border-color value */
+/* groove - Defines a 3D grooved border.  The effect depends on the border-color value */
 
-    /* ridge - Defines a 3D ridged border.  The effect depends on the border-color value */
+/* ridge - Defines a 3D ridged border.  The effect depends on the border-color value */
 
-    /* inset - Defines a 3D inset border.  The effect depends on the border-color value */
+/* inset - Defines a 3D inset border.  The effect depends on the border-color value */
 
-    /* outset - Defines a 3D outset border.  The effect depends on the border-color value */
+/* outset - Defines a 3D outset border.  The effect depends on the border-color value */
 
-    /* none - Defines no border */
+/* none - Defines no border */
 
-    /* hidden - Defines a hidden border */
-
-
+/* hidden - Defines a hidden border */
 
 /*===========================================================================================================================================*/
-
 
 /* 08. Margins
 -------------------
@@ -154,22 +153,15 @@ We can divide CSS selectors into five categories:
 
     inherit - specifies that the margin should be inherited from the parent element */
 
+/* margin-top */
 
-    /* margin-top */
+/* margin-right */
 
+/* margin-bottom */
 
-    /* margin-right */
-
-
-    /* margin-bottom */
-
-
-    /* margin-left */
-
-
+/* margin-left */
 
 /*===========================================================================================================================================*/
-
 
 /* 09. Padding
 -------------------
@@ -180,16 +172,13 @@ We can divide CSS selectors into five categories:
 
     /* padding-top */
 
-    /* padding-right */
+/* padding-right */
 
-    /* padding-bottom */
+/* padding-bottom */
 
-    /* padding-left */
-
-
+/* padding-left */
 
 /*===========================================================================================================================================*/
-
 
 /* 10. Height and Width
 -------------------
@@ -213,10 +202,7 @@ We can divide CSS selectors into five categories:
 
     inherit - The height/width will be inherited from its parent value. */
 
-
-
 /*===========================================================================================================================================*/
-
 
 /* 11. Box Model
 -------------------
@@ -238,21 +224,14 @@ We can divide CSS selectors into five categories:
 
     The box model allows us to add a border around elements and to define space between elements */
 
-
-
 /*===========================================================================================================================================*/
-
 
 /* 12. Outline
 -------------------
 
     An outline is a line that is drawn around elements, OUTSIDE the border, to make the element "stand out"*/
 
-
-
-
 /*===========================================================================================================================================*/
-
 
 /* 13. Text
 -------------------
@@ -260,15 +239,9 @@ We can divide CSS selectors into five categories:
       /*
       CSS has a lot of properties for formatting text. */
 
-
-
-
-
-
 /*===========================================================================================================================================*/
 
-
-  /* 14. Fonts
+/* 14. Fonts
 -------------------
 
     In CSS, we use the font-family property to specify the font of a text.
@@ -277,10 +250,7 @@ We can divide CSS selectors into five categories:
     browsers/operating systems.  Start with the font you want, and end with a generic family (to let the browser pick a similar
     font in the generic family, if no other fonts are available).  The font names should be separated with a comma. */
 
-
-
 /*===========================================================================================================================================*/
-
 
 /* 15. Icons
 -------------------
@@ -297,11 +267,7 @@ We can divide CSS selectors into five categories:
 
     */
 
-
-
-
 /*===========================================================================================================================================*/
-
 
 /* 16. Links
 -------------------
@@ -317,36 +283,21 @@ We can divide CSS selectors into five categories:
     a:hover - a link when the user mouses over it
     a:active - a link the moment it is clicked*/
 
-
-
-
 /*===========================================================================================================================================*/
-
 
 /* 17. Lists
 -------------------
 
     The list-style-type property specifies the type of list item marker. */
 
-
-
-
-
-
-
 /*===========================================================================================================================================*/
-
 
 /* 18. Tables
 -------------------
 
     Tables with CSS */
 
-
-
-
 /*===========================================================================================================================================*/
-
 
 /* 19. Display
 -------------------
@@ -357,10 +308,7 @@ We can divide CSS selectors into five categories:
 
     The default display value for most elements is block or inline. */
 
-     
-
 /*===========================================================================================================================================*/
-
 
 /* 20. Max-Width
 -------------------
@@ -369,14 +317,12 @@ We can divide CSS selectors into five categories:
 
 /*===========================================================================================================================================*/
 
-
 /* 21. Position
 -------------------
 
     The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute, or sticky) */
 
 /*===========================================================================================================================================*/
-
 
 /* 22. Overflow
 -------------------
@@ -394,7 +340,6 @@ We can divide CSS selectors into five categories:
 
 /*===========================================================================================================================================*/
 
-
 /* 23. Float
 -------------------
 
@@ -403,7 +348,6 @@ We can divide CSS selectors into five categories:
     The CSS clear property specifies what elements can float beside the cleared element and on which side. */
 
 /*===========================================================================================================================================*/
-
 
 /* 24. Inline-Block
 -------------------
@@ -415,9 +359,7 @@ We can divide CSS selectors into five categories:
     Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so
     the element can sit next to other elements. */
 
-
 /*===========================================================================================================================================*/
-
 
 /* 25. Align
 -------------------
@@ -426,7 +368,6 @@ We can divide CSS selectors into five categories:
     Use CSS to align the content */
 
 /*===========================================================================================================================================*/
-
 
 /* 26. Combinators
 -------------------
@@ -445,7 +386,6 @@ We can divide CSS selectors into five categories:
 
 /*===========================================================================================================================================*/
 
-
 /* 27. Pseudo Class
 -------------------
 
@@ -453,15 +393,12 @@ We can divide CSS selectors into five categories:
 
 /*===========================================================================================================================================*/
 
-
 /* 28. Pseudo element
 -------------------
 
     A CSS pseudo-element is used to style specified parts of an element. */
 
-
 /*===========================================================================================================================================*/
-
 
 /* 29. Opacity
 -------------------
@@ -470,15 +407,12 @@ We can divide CSS selectors into five categories:
 
 /*===========================================================================================================================================*/
 
-
 /* 30. Navigation Bar
 -------------------
 
     Use CSS to create Navigation Bar */
 
-
 /*===========================================================================================================================================*/
-
 
 /* 31. Dropdowns
 -------------------
@@ -487,14 +421,12 @@ We can divide CSS selectors into five categories:
 
 /*===========================================================================================================================================*/
 
-
 /* 32. Image Gallery
 -------------------
 
     CSS can be used to create an image gallery */
 
 /*===========================================================================================================================================*/
-
 
 /* 33. Image Sprites
 -------------------
@@ -507,14 +439,12 @@ We can divide CSS selectors into five categories:
 
 /*===========================================================================================================================================*/
 
-
 /* 34. Attr Selectors
 -------------------
 
     The [attribute] selector is used to select elements with a specified attribute. */
 
 /*===========================================================================================================================================*/
-
 
 /* 35. Forms
 -------------------
@@ -523,16 +453,13 @@ We can divide CSS selectors into five categories:
 
 /*===========================================================================================================================================*/
 
-
 /* 36. Counters
 -------------------
 
     CSS counters are "variables" maintained by CSS whose values can be incremented by CSS rules.
     Counters let you adjust the appearance of content based on its placement in the document. */
 
-
 /*===========================================================================================================================================*/
-
 
 /* 37. Website Layout
 -------------------
@@ -547,7 +474,6 @@ We can divide CSS selectors into five categories:
 
 /*===========================================================================================================================================*/
 
-
 /* 38. Units
 -------------------
 
@@ -557,9 +483,7 @@ We can divide CSS selectors into five categories:
 
     Length is a number followed by a length unit, such as 10px, 2em. */
 
-
 /*===========================================================================================================================================*/
-
 
 /* 39. Specificity
 -------------------
@@ -582,7 +506,6 @@ We can divide CSS selectors into five categories:
     Elements and pseudo-elements - This category includes element names and pseudo-elements, such as h1, div, :before and :after. */
 
 /*===========================================================================================================================================*/
-
 
 /* 40. !important
 -------------------

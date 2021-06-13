@@ -109,6 +109,15 @@ h1#hsl {
 
     CSS background properties are used to add background effects for elements. */
 
+    /* h1#background {
+        background: blue;
+        background-color: aquamarine;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-image:url();
+    } */
+
 /*===========================================================================================================================================*/
 
 /* 07. Borders

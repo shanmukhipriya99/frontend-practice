@@ -63,14 +63,14 @@ We can divide CSS selectors into five categories:
       color: purple;
   } */
 
-/* p#paragraphid {
+p#paragraphid {
       color: purple;
-  } */
+  }
 
-/* p.classstyle, h1.classstyle {
+p.classstyle, h1.classstyle {
       color: red;
       font-size: 2em;
-  } */
+  }
 
 /*===========================================================================================================================================*/
 
@@ -81,7 +81,7 @@ We can divide CSS selectors into five categories:
 
 
 */
-/* h1#color1 {
+h1#color1 {
     color: tomato;
 }
 h1#color2 {
@@ -101,7 +101,7 @@ h1#hex {
 }
 h1#hsl {
     color: hsl(180, 50%, 50%);
-} */
+}
 /*===========================================================================================================================================*/
 
 /* 06. Backgrounds
@@ -109,14 +109,14 @@ h1#hsl {
 
     CSS background properties are used to add background effects for elements. */
 
-    /* h1#background {
+    h1#background {
         background: blue;
         background-color: aquamarine;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
         background-image:url();
-    } */
+    }
 
 /*===========================================================================================================================================*/
 
@@ -126,24 +126,54 @@ h1#hsl {
     The CSS border properties allow you to specify the style, width and color of an elements border. */
 
 /* dotted - Defines a dotted border */
+p#borders1{
+    border-style: dotted;
+}
 
 /* dashed - Defines a dashed border */
+p#borders2{
+    border-style: dashed;
+}
 
 /* solid - Defines a solid border */
+p#borders3{
+    border-style: solid;
+}
 
 /* double - Defines a double border */
+p#borders4{
+    border-style: double;
+}
 
 /* groove - Defines a 3D grooved border.  The effect depends on the border-color value */
+p#borders5{
+    border-style: groove;
+}
 
 /* ridge - Defines a 3D ridged border.  The effect depends on the border-color value */
+p#borders6{
+    border-style: ridge;
+}
 
 /* inset - Defines a 3D inset border.  The effect depends on the border-color value */
+p#borders7{
+    border-style: inset;
+}
 
 /* outset - Defines a 3D outset border.  The effect depends on the border-color value */
+p#borders8{
+    border-style: outset;
+}
 
 /* none - Defines no border */
+p#borders9{
+    border-style: none;
+}
 
 /* hidden - Defines a hidden border */
+p#borders10{
+    border-style: hidden;
+}
 
 /*===========================================================================================================================================*/
 
